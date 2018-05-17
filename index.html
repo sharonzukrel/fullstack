@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script>
+  function lolo ()
+  {
+  window.open("http://localhost/%D7%A9%D7%A8%D7%95%D7%9F/may/14.05.18/getform.php?name="+name1.value+"&phone="+phone1.value+"&email="+email1.value);
+  }
+  </script>
+</head>
+
+<body>
+
+
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" name="name" class="form-control" id="name1">
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone:</label>
+    <input type="phone" name="phone" class="form-control" id="phone1">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" name="email" class="form-control" id="email1">
+  </div>
+  <button type="button" onclick="lolo();" class="btn btn-primary">Submit</button>
+
+
+</body>
+</html>
